@@ -1,7 +1,7 @@
 {
-    "name": "Family",
+    "name": "Zull-BOT",
     "version": "2.3.5",
-    "description": "Simle Bot WhatsApp with Baileys Multi Device",
+    "description": "Simple Bot WhatsApp with Baileys Multi Device",
     "depecrated": false,
     "main": "index.js",
     "directories": {
