@@ -4,7 +4,7 @@ const moment = require('moment-timezone')
 
 let handler = m => m
 handler.all = async function (m) {
-	let pp = 'https://telegra.ph/file/2d06f0936842064f6b3bb.png'
+	let pp = 'https://telegra.ph/file/0f213f11845ba82927055.jpg'
 	try {
 		pp = await this.profilePictureUrl(m.sender, 'image')
 	} catch (e) {
@@ -21,8 +21,8 @@ handler.all = async function (m) {
         
 		// Ini untuk command crator/owner
 		global.kontak2 = [
-         [owner[0], await this.getName(owner[0] + '@s.whatsapp.net'), 'ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ', 'mr.familia13@gmail.com', true],
-         [owner[1], await this.getName(owner[1] + '@s.whatsapp.net'), 'ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ', 'FokusDotId13@gmail.com', true], // Kalo mau di tambah tinggal copy 1baris ini di tempel di bawahnya trs di edit dikit!
+         [owner[0], await this.getName(owner[0] + '@s.whatsapp.net'), 'ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ', 'zulkarnaenrisman0410@gmail.com', true],
+         [owner[1], await this.getName(owner[1] + '@s.whatsapp.net'), 'ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ', 'mursidmulo@gmail.com', true], // Kalo mau di tambah tinggal copy 1baris ini di tempel di bawahnya trs di edit dikit!
         ]
         
 		// ucapan ini mah
@@ -37,11 +37,11 @@ handler.all = async function (m) {
 				forwardingScore: 9999,
 				isForwarded: true, // ini biar ada tulisannya diteruskan berkali-kali, jika ingin di hilangkan ganti true menjadi false
 				externalAdReply: { // Bagian ini sesuka kalian berkreasi :'v
-					title: "aktif selama: " + global.u,
+					title: "Aktif selama: " + global.u,
 					body: wm,
 					previewType: "PHOTO",
 					thumbnail: await (await fetch(img)).buffer(),
-					//sourceUrl: 'https://wa.me',
+					//sourceUrl: 'https://wa.me/601127316764',
 				}
 			}
 		}
